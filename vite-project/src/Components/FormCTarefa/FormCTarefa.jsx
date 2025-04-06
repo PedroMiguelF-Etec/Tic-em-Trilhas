@@ -1,12 +1,12 @@
-import { CampoTexto } from '../../Components';
-import { Button } from '../../Components'
+import { CampoTexto, Botao, TIPO_BOTAO} from '../../Components';
+import style from './FormCTarefa.module.css';
 
 const FormCTarefa = () => { 
     return (
         
-        <form>
+        <form className={style.FormCTarefa}>
             <CampoTexto />
-            <Button texto="+" />
+            <Botao texto="+" />
         </form>
     )
 }
