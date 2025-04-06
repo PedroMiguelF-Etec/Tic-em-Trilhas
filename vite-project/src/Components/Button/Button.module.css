@@ -1,0 +1,6 @@
+.Botao{
+    background: var(--rosa);
+    border: 1px solid black;
+    padding:  0.25rem 0.75rem;
+    color: var(--rosa);
+}

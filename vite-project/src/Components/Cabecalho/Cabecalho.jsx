@@ -12,4 +12,4 @@ const Cabecalho =  () => {
     );
 };
 
-export {Cabecalho};
+export { Cabecalho };
