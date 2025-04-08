@@ -1,18 +1,19 @@
 
 import { BrowserRouter} from 'react-router-dom';
 
-import { Cabecalho , Conteudo, Rodape } from './Components';
-import { Inicial } from './Pages'
-
 import { Router } from './Router';
+
+import { AppContextProvider } from './contexts';
 
 import './App.css'
 
 const App = () => {
   return (
+    <AppContextProvider>
     <BrowserRouter>
       <Router />
     </BrowserRouter>
+    </AppContextProvider>
   )
 };
 
